@@ -1,0 +1,69 @@
+INTRODUCCION:
+
+El sistema a desarrollar permitirá gestionar, principalmente, las ventas y el stock de una ferretería. 
+Para esto contará con un menú principal y una serie de submenúes que serán la interfaz gráfica para la gestión de los clientes, proveedores, 
+las ventas y stock disponible.
+
+
+DESCRIPCIÓN DETALLADA DEL SISTEMA:
+
+El objetivo principal del programa es llevar el control de las ventas que realice la ferretería y el stock de los productos. Los articulos podrán ser clasificados por la categoria dependiendo al rubro que pertenezcan y registrarán el precio de venta por unidad, nombre del producto, la descripcion con información detallada de lo que contiene, la marca, el stock disponible y por último el proveedor. 
+
+El sistema permitirá realizar búsquedas de productos mediante los atributos anteriormente
+mencionados. Pudiendo, por ejemplo, realizar filtros en los listados a partir de producto, rubro especifico y marca de productos.
+
+Los proveedores serán almacenados registrando su correo electronico, telefono, identificador como proveedor para poder reconocer los productos que nos brinda y por último, la razón social para identificar al responsable de los productos.
+
+La aplicación permitirá registrar a los clientes, que serán los que realicen las
+compras de productos. De estos se podrá registrar el DNI, que lo permitirá identificar, el
+apellido y los nombres, teléfono, y por último, el email.
+
+El listado de clientes podrá ser visualizado ordenado por orden alfabético o inverso y podrá ser
+exportado a un formato compatible con planillas de cálculo o bien podrá ser impreso en
+formato PDF.
+
+Las ventas son la principal tarea que el programa resuelve. Por cada venta es necesario
+registrar el cliente que la realiza. Para ello se le solicita su DNI. En una misma venta se
+pueden incluir varios productos. 
+	Cada venta también registra la fecha del sistema que será la fecha de la
+factura. Luego, el sistema generará una factura que podrá ser impresa o visualizada en otro
+momento por el vendedor. La factura contendrá el detalle de la venta, incluyendo los datos
+del cliente, la fecha, y la información de cada producto comprado (nombre, unidades compradas e importe unitario)
+
+
+SALIDAS DEL SISTEMA:
+
+	- Listado productos
+		- Ordenados por marca
+		- Ordenados por categoría
+		- Ordenados por proveedor
+
+	- Listado de clientes
+		- Ordenados por apellido
+
+	- Listado de ventas
+		- Ordenados por fecha
+
+	- Listado de proveedores
+		- Ordenados por orden alfabetico
+		
+
+CONSULTAS:
+
+	- Consultas de productos
+		- Por nombre
+		- Por categoría 
+		- 
+
+	- Consulta de clientes
+		- Apellido
+		- DNI
+
+	- Consulta ventas
+		- Rango de fechas
+		- Cliente
+		- Producto
+		- Marca
+
+	
+

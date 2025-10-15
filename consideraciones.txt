@@ -3,9 +3,15 @@ Tema: Sistema de Gestión para Ferretería: Control de inventario, ventas y clie
 
 Archivos a utilizar:
 
+# BUSCADOR -> ENCONTRAR LA FORMA DE LISTAR PRODUCTOS DE FORMA ESPECIFICA
+# Usar clase Persona para clientes y proveedores
+# Clase almacen para controlar stocks, precios
+# Clase para obtener proveedores
+
 - Clientes
 
 idCliente : int 
+/// A CONSIDERAR EN UN FUTURO /// tipoCliente: int (1- persona 2- empresa)
 nombre : char[30]
 apellido : char[30]
 dni : char[15]
@@ -15,7 +21,7 @@ eliminado : bool
 - Proveedores
 
 idProveedor : int
-razonSocial : char[50]
+cuit/cuil : char[50]
 email : char[50]
 telefono : char[20]
 eliminado : bool
@@ -23,11 +29,13 @@ eliminado : bool
 - Productos
 
 idProducto : int
+idProveedor : int 
+idCategoria: int
+marca : char[25]
 nombre : char[50]
 descripcion : char[150]
 precio : float
 stock : int 
-idProveedor : int 
 eliminado : bool 
 
 - Ventas
