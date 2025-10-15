@@ -1,0 +1,45 @@
+Tipo de proyecto: Gestión
+Tema: Sistema de Gestión para Ferretería: Control de inventario, ventas y clientes.
+
+Archivos a utilizar:
+
+- Clientes
+
+idCliente : int 
+nombre : char[30]
+apellido : char[30]
+dni : char[15]
+telefono : char[20]
+eliminado : bool 
+
+- Proveedores
+
+idProveedor : int
+razonSocial : char[50]
+email : char[50]
+telefono : char[20]
+eliminado : bool
+
+- Productos
+
+idProducto : int
+nombre : char[50]
+descripcion : char[150]
+precio : float
+stock : int 
+idProveedor : int 
+eliminado : bool 
+
+- Ventas
+
+idVenta : int 
+idCliente : int 
+fechaVenta : Fecha
+montoTotal : float
+
+- DetalleVenta
+
+idVenta : int 
+idProducto : int 
+cantidad : int 
+precioUnitario : float
