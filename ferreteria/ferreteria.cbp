@@ -50,6 +50,13 @@
 		<Unit filename="HUMANOS/clsPersona.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="INVENTARIO/PRODUCTO/clsProducto.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="INVENTARIO/PRODUCTO/clsProducto.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="INVENTARIO/clsAlmacen.h" />
 		<Unit filename="MENU/principal.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -66,6 +73,16 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Utiles/funcionCargarCadena.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VENTAS/clsVenta.cpp" />
+		<Unit filename="VENTAS/clsVenta.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />
