@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Venta.h"
+#include "clsVenta.h"
 #include <ctime> // Para obtener la fecha actual
 
 using namespace std;

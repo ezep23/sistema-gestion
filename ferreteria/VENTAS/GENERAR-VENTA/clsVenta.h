@@ -1,7 +1,7 @@
 #ifndef CLSVENTA_H_INCLUDED
 #define CLSVENTA_H_INCLUDED
 
-#include "../Utiles/clsFecha.h"
+#include "../../Utiles/clsFecha.h"
 
 class Venta {
 private:

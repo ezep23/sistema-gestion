@@ -57,15 +57,28 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="INVENTARIO/clsAlmacen.h" />
-		<Unit filename="MENU/principal.h">
+		<Unit filename="MENÚS/funcionesMenuClientes.cpp" />
+		<Unit filename="MENÚS/funcionesMenuCompras.cpp" />
+		<Unit filename="MENÚS/funcionesMenuConfiguracion.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="MENU/proveedores.h">
+		<Unit filename="MENÚS/funcionesMenuInformes.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="MENU/ventas.h">
+		<Unit filename="MENÚS/funcionesMenuProductos.cpp" />
+		<Unit filename="MENÚS/funcionesMenuVentas.cpp" />
+		<Unit filename="MENÚS/menuClientes.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="MENÚS/menuCompras.h" />
+		<Unit filename="MENÚS/menuConfiguracion.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="MENÚS/menuInformes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="MENÚS/menuProductos.h" />
+		<Unit filename="MENÚS/menuVentas.h" />
 		<Unit filename="Utiles/clsFecha.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -75,14 +88,12 @@
 		<Unit filename="Utiles/funcionCargarCadena.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="VENTAS/GENERAR-VENTA/clsVenta.cpp" />
+		<Unit filename="VENTAS/GENERAR-VENTA/clsVenta.h" />
 		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="VENTAS/clsVenta.cpp" />
-		<Unit filename="VENTAS/clsVenta.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />
