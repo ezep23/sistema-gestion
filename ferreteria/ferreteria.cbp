@@ -32,70 +32,33 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="HUMANOS/CLIENTES/clsCliente.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="HUMANOS/CLIENTES/clsCliente.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="HUMANOS/PROVEEDORES/clsProveedor.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="HUMANOS/PROVEEDORES/clsProveedor.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="HUMANOS/clsPersona.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="HUMANOS/clsPersona.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="INVENTARIO/PRODUCTO/clsProducto.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="INVENTARIO/PRODUCTO/clsProducto.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="INVENTARIO/clsAlmacen.h" />
+		<Unit filename="CLASES/HUMANOS/CLIENTES/clsCliente.cpp" />
+		<Unit filename="CLASES/HUMANOS/CLIENTES/clsCliente.h" />
+		<Unit filename="CLASES/HUMANOS/PROVEEDORES/clsProveedor.cpp" />
+		<Unit filename="CLASES/HUMANOS/PROVEEDORES/clsProveedor.h" />
+		<Unit filename="CLASES/HUMANOS/clsPersona.cpp" />
+		<Unit filename="CLASES/HUMANOS/clsPersona.h" />
+		<Unit filename="CLASES/INVENTARIO/clsAlmacen.h" />
+		<Unit filename="CLASES/INVENTARIO/clsProducto.cpp" />
+		<Unit filename="CLASES/INVENTARIO/clsProducto.h" />
+		<Unit filename="CLASES/VENTAS/clsDetalleVenta.cpp" />
+		<Unit filename="CLASES/VENTAS/clsDetalleVenta.h" />
+		<Unit filename="CLASES/VENTAS/clsVenta.cpp" />
+		<Unit filename="CLASES/VENTAS/clsVenta.h" />
+		<Unit filename="CLASES/clsFecha.cpp" />
+		<Unit filename="CLASES/clsFecha.h" />
 		<Unit filename="MENÚS/funcionesMenuClientes.cpp" />
 		<Unit filename="MENÚS/funcionesMenuCompras.cpp" />
-		<Unit filename="MENÚS/funcionesMenuConfiguracion.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="MENÚS/funcionesMenuInformes.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="MENÚS/funcionesMenuConfiguracion.cpp" />
+		<Unit filename="MENÚS/funcionesMenuInformes.cpp" />
 		<Unit filename="MENÚS/funcionesMenuProductos.cpp" />
 		<Unit filename="MENÚS/funcionesMenuVentas.cpp" />
-		<Unit filename="MENÚS/menuClientes.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="MENÚS/menuClientes.h" />
 		<Unit filename="MENÚS/menuCompras.h" />
-		<Unit filename="MENÚS/menuConfiguracion.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="MENÚS/menuInformes.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="MENÚS/menuConfiguracion.h" />
+		<Unit filename="MENÚS/menuInformes.h" />
 		<Unit filename="MENÚS/menuProductos.h" />
 		<Unit filename="MENÚS/menuVentas.h" />
-		<Unit filename="Utiles/clsFecha.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Utiles/clsFecha.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Utiles/funcionCargarCadena.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="VENTAS/GENERAR-VENTA/clsVenta.cpp" />
-		<Unit filename="VENTAS/GENERAR-VENTA/clsVenta.h" />
-		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="VENTAS/RESULTADO-VENTA/clsDetalleVenta.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

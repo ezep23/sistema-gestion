@@ -2,7 +2,8 @@
 #define CLSCLIENTE_H_INCLUDED
 #include "../clsPersona.h"
 
-class Cliente: public Persona{
+class Cliente: protected Persona{
+ private:
 
 };
 

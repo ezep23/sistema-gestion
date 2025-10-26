@@ -2,7 +2,7 @@
 #define CLSPROVEEDOR_H_INCLUDED
 #include "../clsPersona.h"
 
-class Proveedor: public Persona{
+class Proveedor: protected Persona{
 
 };
 

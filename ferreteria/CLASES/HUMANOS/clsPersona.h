@@ -2,8 +2,9 @@
 #define CLSPERSONA_H_INCLUDED
 
 class Persona(){
- protected:
-    char nombre[30];
+ private:
+    char nombre[15];
+    char apellido[15];
     char email[30];
     int telefono[15];
     bool eliminado;
