@@ -11,16 +11,17 @@ private:
     float _montoTotal;
 
 public:
-    Venta(); // Constructor por defecto
-    void cargar(int idVenta, int idCliente);
-    void mostrar();
-    // Getters
+    Venta();
+
     int getIDVenta();
     int getIDCliente();
     Fecha getFechaVenta();
     float getMontoTotal();
-    // Setters
+
     void setMontoTotal(float monto);
+
+    void cargar(int idVenta, int idCliente);
+    void mostrar();
 };
 
 #endif // CLSVENTA_H_INCLUDED

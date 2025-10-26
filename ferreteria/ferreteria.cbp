@@ -47,6 +47,12 @@
 		<Unit filename="CLASES/VENTAS/clsVenta.h" />
 		<Unit filename="CLASES/clsFecha.cpp" />
 		<Unit filename="CLASES/clsFecha.h" />
+		<Unit filename="CLASES/clsHora.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CLASES/clsHora.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="MENÚS/funcionesMenuClientes.cpp" />
 		<Unit filename="MENÚS/funcionesMenuCompras.cpp" />
 		<Unit filename="MENÚS/funcionesMenuConfiguracion.cpp" />
